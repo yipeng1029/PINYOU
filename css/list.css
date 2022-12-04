@@ -1,0 +1,116 @@
+    /* 列表专有的CSS样式 */
+    
+    .sk {
+        position: absolute;
+        left: 190px;
+        top: 40px;
+        border-left: 1px solid #c81523;
+        padding-left: 14px;
+    }
+    /* 导航模块样式： */
+    
+    .sk_list {
+        float: left;
+    }
+    
+    .sk_list ul li {
+        float: left;
+    }
+    
+    .sk_list ul li a {
+        display: block;
+        line-height: 47px;
+        text-align: center;
+        padding: 0 28px;
+        color: #000000;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .sk_con ul {
+        float: right;
+    }
+    
+    .sk_con ul li {
+        float: left;
+    }
+    
+    .sk_con ul li a {
+        display: block;
+        line-height: 47px;
+        text-align: center;
+        padding: 0 23px;
+    }
+    
+    .sk_con ul li:last-child a::after {
+        content: '\e904';
+        font-family: 'icomoon';
+    }
+    
+    .sk_bd ul li {
+        float: left;
+        width: 290px;
+        height: 460px;
+        /* background-color: skyblue; */
+        border: 1px solid transparent;
+        margin-right: 13px;
+        margin-top: 24px;
+    }
+    
+    .sk_bd ul li:nth-child(4n) {
+        margin-right: 0;
+    }
+    
+    .sk_bd ul li:hover {
+        border: 1px solid #c81523;
+    }
+    
+    .sk_bd ul li img {
+        width: 288px;
+        height: 290px;
+    }
+    
+    .sk_bd ul li p {
+        padding: 12px 12px;
+    }
+    
+    .sk_bd .price {
+        padding-left: 12px;
+        font-size: 22px;
+        color: #c81523;
+    }
+    
+    .sk_bd .origin {
+        text-decoration: line-through;
+    }
+    
+    .sk_bd ul li div {
+        padding-left: 12px;
+        padding-bottom: 5px;
+    }
+    
+    .sk_bd .bar {
+        display: inline-block;
+        width: 140px;
+        height: 10px;
+        border: 1px solid #c81523;
+        border-radius: 5px;
+        padding: 1px;
+    }
+    
+    .sk_bd .bar_in {
+        width: 87%;
+        height: 100%;
+        background-color: #c81523;
+        border-radius: 5px;
+    }
+    
+    .sk_bd .buy {
+        width: 100%;
+        height: 52px;
+        background-color: #c81523;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        line-height: 52px;
+    }

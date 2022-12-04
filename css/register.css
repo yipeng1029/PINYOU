@@ -1,0 +1,143 @@
+/* 注册页面样式： */
+
+.style_red {
+    color: #c81523;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+    padding-top: 18px;
+}
+
+.register_area {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.register_area h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.register_area .login {
+    float: right;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.reg_form {
+    width: 600px;
+    /* background-color: skyblue; */
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form .error {
+    color: #c81523;
+}
+
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/error_icon.png);
+}
+
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/success_icon.png);
+}
+
+.safe_level {
+    padding-left: 168px;
+}
+
+.safe_level em {
+    padding: 0 12px;
+    /* background-color: skyblue; */
+    color: #fff;
+}
+
+.safe_level .ruo {
+    background-color: #de1111;
+}
+
+.safe_level .zhong {
+    background-color: #40b83f;
+}
+
+.safe_level .qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.submit {
+    display: inline-block;
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 70px;
+    background-color: #c81623;
+    color: #fff;
+}
+
+
+/* 注册表底部样式： */
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    margin-top: 16px;
+}

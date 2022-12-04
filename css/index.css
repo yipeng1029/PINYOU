@@ -1,0 +1,363 @@
+ /* main 模块制作 */
+ 
+ .main {
+     width: 100%;
+     height: 455px;
+     padding-left: 220px;
+     margin-top: 10px;
+     /* background-color: skyblue; */
+ }
+ 
+ .focus {
+     position: relative;
+     float: left;
+     width: 720px;
+     height: 100%;
+     background-color: skyblue;
+ }
+ /* 左箭头： */
+ 
+ .focus .left {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     margin-top: -15px;
+     /* 盒子： */
+     width: 20px;
+     height: 30px;
+     background-color: rgba(0, 0, 0, .3);
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     color: #fff;
+     /* 文字居中： */
+     text-align: center;
+     line-height: 30px;
+ }
+ /* 右箭头： */
+ 
+ .focus .right {
+     position: absolute;
+     top: 50%;
+     right: 0;
+     margin-top: -15px;
+     /* 盒子： */
+     width: 20px;
+     height: 30px;
+     background-color: rgba(0, 0, 0, .3);
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     color: #fff;
+     /* 文字居中： */
+     text-align: center;
+     line-height: 30px;
+ }
+ 
+ .promo_nav {
+     position: absolute;
+     bottom: 10px;
+     left: 50%;
+     margin-left: -35px;
+     width: 70px;
+     height: 13px;
+     background-color: rgba(0, 0, 0, .3);
+     border-radius: 7px;
+ }
+ 
+ .promo_nav li {
+     float: left;
+     width: 8px;
+     height: 8px;
+     background-color: #fff;
+     border-radius: 50%;
+     margin: 3px 3px;
+ }
+ 
+ .promo_nav li:first-child {
+     background-color: blue;
+ }
+ 
+ .newflash {
+     float: left;
+     width: 250px;
+     height: 100%;
+     margin-left: 10px;
+     /* background-color: skyblue; */
+ }
+ 
+ .newflash .news {
+     width: 100%;
+     height: 165px;
+     border: 2px solid #999999;
+ }
+ 
+ .news_head {
+     width: 100%;
+     height: 33px;
+     line-height: 33px;
+     border-bottom: 2px dotted #999999;
+     font-size: 14px;
+ }
+ 
+ .news_head span {
+     float: left;
+     padding-left: 16px;
+ }
+ 
+ .news_head a {
+     float: right;
+     padding-right: 16px;
+ }
+ 
+ .news_head a::after {
+     content: '\e906';
+     font-family: 'icomoon';
+     padding-left: 10px;
+ }
+ 
+ .news_body {
+     /* text-indent: 18px; */
+     padding-left: 18px;
+ }
+ 
+ .news_body li {
+     padding-top: 7px;
+     /* 单行溢出文字显示省略号： */
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+ 
+ .news_body li span {
+     font-weight: 700;
+ }
+ 
+ .lifeservice {
+     /* 把ul溢出部分隐藏： */
+     overflow: hidden;
+     width: 100%;
+     height: 211px;
+     /* background-color: #fff; */
+     border: 2px solid #999999;
+     border-top: 0;
+ }
+ 
+ .lifeservice ul {
+     /* 一行显示4个盒子： */
+     width: 252px;
+ }
+ 
+ .lifeservice ul li {
+     position: relative;
+     float: left;
+     width: 62px;
+     height: 71px;
+     border-right: 1px solid #999999;
+     border-bottom: 1px solid #999999;
+     text-align: center;
+ }
+ 
+ .lifeservice ul li img {
+     position: absolute;
+     top: 0;
+     right: 0;
+ }
+ /* CSS3 属性选择器（降低代码重复率）： */
+ 
+ .lifeservice ul li i[class^=i] {
+     display: inline-block;
+     width: 25px;
+     height: 25px;
+     margin-top: 12px;
+ }
+ /* 12个小图标（通过精灵图实现）： */
+ 
+ .lifeservice .i1 {
+     background: url(../images/icons.png) no-repeat -20px -14px;
+ }
+ 
+ .lifeservice .i2 {
+     background: url(../images/icons.png) no-repeat -82px -16px;
+ }
+ 
+ .lifeservice .i3 {
+     background: url(../images/icons.png) no-repeat -141px -16px;
+ }
+ 
+ .lifeservice .i4 {
+     background: url(../images/icons.png) no-repeat -203px -18px;
+ }
+ 
+ .lifeservice .i5 {
+     background: url(../images/icons.png) no-repeat -15px -88px;
+ }
+ 
+ .lifeservice .i6 {
+     background: url(../images/icons.png) no-repeat -80px -88px;
+ }
+ 
+ .lifeservice .i7 {
+     background: url(../images/icons.png) no-repeat -143px -89px;
+ }
+ 
+ .lifeservice .i8 {
+     background: url(../images/icons.png) no-repeat -208px -87px;
+ }
+ 
+ .lifeservice .i9 {
+     background: url(../images/icons.png) no-repeat -14px -160px;
+ }
+ 
+ .lifeservice .i10 {
+     background: url(../images/icons.png) no-repeat -77px -160px;
+ }
+ 
+ .lifeservice .i11 {
+     background: url(../images/icons.png) no-repeat -144px -160px;
+ }
+ 
+ .lifeservice .i12 {
+     background: url(../images/icons.png) no-repeat -208px -160px;
+ }
+ /* 主体右侧底部广告样式 */
+ 
+ .advertising {
+     width: 100%;
+     height: 75px;
+     margin-top: 5px;
+     /* background-color: skyblue; */
+ }
+ 
+ .advertising img {
+     width: 100%;
+     height: 100%;
+ }
+ /* 推荐模块样式： */
+ 
+ .recom {
+     height: 163px;
+     margin-top: 10px;
+ }
+ 
+ .recom_head {
+     float: left;
+     width: 208px;
+     height: 100%;
+     background-color: #5c5251;
+     /* 居中： */
+     text-align: center;
+     padding-top: 30px;
+ }
+ 
+ .recom_body {
+     float: left;
+     width: 992px;
+     height: 100%;
+     /* background-color: skyblue; */
+ }
+ 
+ .recom_body ul li {
+     position: relative;
+     float: left;
+ }
+ 
+ .recom_body ul li img {
+     width: 248px;
+     height: 163px;
+ }
+ /* 分隔线： */
+ /* 结构伪类选择器： */
+ 
+ .recom_body ul li:nth-child(-n+3):after {
+     content: '';
+     /* 定位： */
+     position: absolute;
+     right: 0;
+     top: 10px;
+     width: 1px;
+     height: 145px;
+     background-color: #ddd;
+ }
+ /* 楼层区域样式： */
+ 
+ .floor .w {
+     margin-top: 20px;
+ }
+ /* 头部： */
+ 
+ .box_hd {
+     width: 100%;
+     height: 30px;
+     border-bottom: 2px solid #c81623;
+     /* background-color: skyblue; */
+     line-height: 30px;
+ }
+ 
+ .box_hd h4 {
+     float: left;
+     font-size: 18px;
+     color: #c81623;
+ }
+ 
+ .box_hd .tab_list ul {
+     float: right;
+     margin-right: 10px;
+ }
+ 
+ .box_hd .tab_list ul li {
+     float: left;
+     font-size: 12px;
+ }
+ 
+ .box_hd .tab_list ul li:nth-child(2n) {
+     width: 1px;
+     height: 12px;
+     background-color: #999999;
+     margin: 10px 16px;
+ }
+ /* 主体： */
+ 
+ .box_bd {
+     height: 361px;
+     /* background-color: skyblue; */
+ }
+ 
+ .tab_list_item>div {
+     float: left;
+     height: 361px;
+ }
+ 
+ .col_210 {
+     width: 210px;
+     background-color: #f9f9f9;
+     text-align: center;
+ }
+ 
+ .col_210 ul li {
+     float: left;
+     width: 85px;
+     height: 34px;
+     border-bottom: 1px solid #ededed;
+     margin-left: 14px;
+     line-height: 34px;
+ }
+ 
+ .col_329 {
+     width: 330px;
+ }
+ 
+ .col_220 {
+     width: 220px;
+ }
+ /* 底部： */
+ 
+ .box_footer {
+     height: 65px;
+     background-color: #f7f7f7;
+     margin: 20px 0;
+ }
+ 
+ .box_footer a img {
+     width: 115px;
+     height: 65px;
+ }
+ 
